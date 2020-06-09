@@ -1,0 +1,28 @@
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\bin\Debug\netstandard2.0\App01_ConsultaCEP.deps.json
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\bin\Debug\netstandard2.0\App01_ConsultaCEP.dll
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App01_ConsultaCEP.csprojAssemblyReference.cache
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App01_ConsultaCEP.AssemblyInfoInputs.cache
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App01_ConsultaCEP.AssemblyInfo.cs
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\bin\Debug\netstandard2.0\ref\App01_ConsultaCEP.dll
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\bin\Debug\netstandard2.0\App01_ConsultaCEP.pdb
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App01_ConsultaCEP.csproj.CoreCompileInputs.cache
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\XamlC.stamp
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App01_ConsultaCEP.dll
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\ref\App01_ConsultaCEP.dll
+C:\GitHub\XamarinFormsCurso\Sessão 05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App01_ConsultaCEP.pdb
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\bin\Debug\netstandard2.0\App01_ConsultaCEP.deps.json
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\bin\Debug\netstandard2.0\App01_ConsultaCEP.dll
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\bin\Debug\netstandard2.0\ref\App01_ConsultaCEP.dll
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\bin\Debug\netstandard2.0\App01_ConsultaCEP.pdb
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App01_ConsultaCEP.csprojAssemblyReference.cache
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App01_ConsultaCEP.csproj.CoreCompileInputs.cache
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App01_ConsultaCEP.AssemblyInfoInputs.cache
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App01_ConsultaCEP.AssemblyInfo.cs
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\XamlC.stamp
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App01_ConsultaCEP.dll
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\ref\App01_ConsultaCEP.dll
+C:\GitHub\XamarinFormsCurso\Sessao05\App01_ConsultaCEP\App01_ConsultaCEP\App01_ConsultaCEP\obj\Debug\netstandard2.0\App01_ConsultaCEP.pdb

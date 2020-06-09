@@ -1,0 +1,17 @@
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\bin\Debug\netstandard2.0\App1_Mimica.deps.json
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\bin\Debug\netstandard2.0\App1_Mimica.dll
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\bin\Debug\netstandard2.0\ref\App1_Mimica.dll
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\bin\Debug\netstandard2.0\App1_Mimica.pdb
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\App1_Mimica.csprojAssemblyReference.cache
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\View\InicioPage.xaml.g.cs
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\View\JogoPage.xaml.g.cs
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\View\ResultadoPage.xaml.g.cs
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\View\Util\Cabecalho.xaml.g.cs
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\App1_Mimica.csproj.CoreCompileInputs.cache
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\App1_Mimica.AssemblyInfoInputs.cache
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\App1_Mimica.AssemblyInfo.cs
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\App1_Mimica.dll
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\ref\App1_Mimica.dll
+C:\Gt\XFC\S12\App1_Mimica\App1_Mimica\App1_Mimica\obj\Debug\netstandard2.0\App1_Mimica.pdb

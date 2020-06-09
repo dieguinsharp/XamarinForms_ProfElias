@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App2_Cinemix.MainPage">
+    <ScrollView>
+    <StackLayout>
+        <StackLayout Style="{StaticResource cabecalho}">
+                    <Label Text="CINEMIX" Style="{StaticResource TituloApp}"/>
+                    <Label Text="seu app de cinema" Style="{StaticResource SubtituloApp}"/>
+                </StackLayout>
+            <StackLayout Style="{StaticResource fundo}">
+                <StackLayout>
+                    <Label Text="Lançamento" Style="{StaticResource lancamento}"/>
+                    <Label Text="Pantera Negra" Style="{StaticResource TituloFilme}"/>
+                </StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Image Source="Fundo1.png" Style="{StaticResource Imagefundo}" Grid.Row="0" Grid.Column="0" />
+                        <Image Source="Poster1.png"  Style="{StaticResource poster}" Grid.Row="0" Grid.Column="0"/>
+                    
+                    <StackLayout>
+                        <Label Style="{StaticResource lblSinopse}" Text="Após a morte do rei T'Chaka (John Kani), o príncipe T'Challa (Chadwick Boseman) retorna a Wakanda para a cerimônia de coroação. Nela são reunidas as cinco tribos que compõem o reino, sendo que uma delas, os Jabari, não apoia o atual governo. T'Challa logo recebe o apoio de Okoye (Danai Gurira), a chefe da guarda de Wakanda, da irmã Shuri (Laetitia Wright), que coordena a área tecnológica do reino, e também de Nakia (Lupita Nyong'o), a grande paixão do atual Pantera Negra, que não quer se tornar rainha. Juntos, eles estão à procura de Ulysses Klaue (Andy Serkis), que roubou de Wakanda um punhado de vibranium, alguns anos atrás."/>
+                    </StackLayout>
+                    <StackLayout Style="{StaticResource horario}">
+                        <StackLayout Style="{StaticResource horarios}">
+                            <Label Text="13:30h" Style="{StaticResource horas}"/>
+                        </StackLayout>
+
+                        <StackLayout Style="{StaticResource horarios}">
+                            <Label Text="13:30h" Style="{StaticResource horas}"/>
+                        </StackLayout>
+
+                        <StackLayout Style="{StaticResource horarios}">
+                            <Label Text="16:30h" Style="{StaticResource horas}"/>
+                        </StackLayout>
+
+                        <StackLayout Style="{StaticResource horarios}">
+                            <Label Text="19:30h" Style="{StaticResource horas}"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <Image Source="FundoValor.png" Grid.Column="0" Grid.Row="1" HorizontalOptions="Center"/>
+                    <StackLayout Style="{StaticResource stackPrecos}" Grid.Row="1">
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="MEIA" Style="{StaticResource lblPrecos}"/>
+                            <Label Text="R$ 15,00" Style="{StaticResource lblPrecos}"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="INTEIRA" Style="{StaticResource lblPrecos}"/>
+                            <Label Text="R$ 30,00" Style="{StaticResource lblPrecos}"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

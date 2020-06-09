@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1_ControleXF.Conteudo.TabbleViewPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <TableView Intent="Settings">
+                    <TableRoot>
+                        <TableSection Title="Backup">
+                            <SwitchCell Text="Backup das Imagens" On="False"/>
+                            <SwitchCell Text="Backup do Chat" On="true"/>
+                            <ViewCell Height="150">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label FontAttributes="Bold" Margin="15" Text="Backup Geral(Semanal)"/>
+                                    <Slider Maximum="7" Minimum="1" Margin="15" HorizontalOptions="FillAndExpand"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </TableSection>
+                        <TableSection Title="Criptografia">
+                            <SwitchCell Text="Proteger Conversas" On="False"/>
+                            <SwitchCell Text="Proteger Senhas" On="False"/>
+                        </TableSection>
+                        <TableSection Title="Segurança">
+                            <SwitchCell Text="Ativar Verificação" On="False"/>
+                            <SwitchCell Text="Salvar IP de Login" On="False"/>
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

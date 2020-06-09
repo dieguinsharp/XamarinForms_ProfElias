@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="S8_App02.Paginas.InicioPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+                <StackLayout>
+                    <StackLayout BackgroundColor="Blue" HeightRequest="200">
+                        <Label Text="Meu Dia" TextColor="White" FontSize="30" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                        <Label x:Name="dtDataHoje" Padding="5" Text="Segunda, 27/04/2020" HorizontalOptions="Start" FontAttributes="Italic" VerticalOptions="End" TextColor="White" FontSize="15"/>
+                    </StackLayout>
+
+
+                    <StackLayout x:Name="SLTarefas" Padding="10" Spacing="10">
+                        <StackLayout Orientation="Horizontal" Spacing="15">
+                            <Image VerticalOptions="Center" BackgroundColor="Transparent">
+                                <Image.Source>
+                                    <OnPlatform x:TypeArguments="ImageSource">
+                                        <On Platform="Android" Value="CheckOff.png"/>
+                                        <On Platform="IOS" Value="Resources/CheckOff.png"/>
+                                    </OnPlatform>
+                                </Image.Source>
+                            </Image>
+                            <Label VerticalOptions="Center" Text="Task 1" FontSize="20" HorizontalOptions="FillAndExpand"/>
+                            <Image VerticalOptions="Center" BackgroundColor="Transparent">
+                                <Image.Source>
+                                    <OnPlatform x:TypeArguments="ImageSource">
+                                        <On Platform="Android" Value="p4.png"/>
+                                        <On Platform="IOS" Value="Resources/p4.png"/>
+                                    </OnPlatform>
+                                </Image.Source>
+                            </Image>
+                            <Image VerticalOptions="Center" BackgroundColor="Transparent">
+                                <Image.Source>
+                                    <OnPlatform x:TypeArguments="ImageSource">
+                                        <On Platform="Android" Value="Delete.png"/>
+                                        <On Platform="IOS" Value="Resources/Delete.png"/>
+                                    </OnPlatform>
+                                </Image.Source>
+                            </Image>
+                        </StackLayout>
+
+
+
+                        <StackLayout Orientation="Horizontal" Spacing="10">
+                            <Image VerticalOptions="Center" BackgroundColor="Transparent">
+                                <Image.Source>
+                                    <OnPlatform x:TypeArguments="ImageSource">
+                                        <On Platform="Android" Value="CheckOn.png"/>
+                                        <On Platform="IOS" Value="Resources/CheckOn.png"/>
+                                    </OnPlatform>
+                                </Image.Source>
+                            </Image>
+                            <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                                <Label Text="Task 1" TextColor="Gray" FontSize="20" />
+                                <Label Text="Finalizado em 26/04/2020 as 23:57h" TextColor="LightGray" FontSize="15"/>
+                            </StackLayout>
+
+                            <Image VerticalOptions="Center" BackgroundColor="Transparent">
+                                <Image.Source>
+                                    <OnPlatform x:TypeArguments="ImageSource">
+                                        <On Platform="Android" Value="p2.png"/>
+                                        <On Platform="IOS" Value="Resources/p2.png"/>
+                                    </OnPlatform>
+                                </Image.Source>
+                            </Image>
+                            <Image VerticalOptions="Center" BackgroundColor="Transparent">
+                                <Image.Source>
+                                    <OnPlatform x:TypeArguments="ImageSource">
+                                        <On Platform="Android" Value="Delete.png"/>
+                                        <On Platform="IOS" Value="Resources/Delete.png"/>
+                                    </OnPlatform>
+                                </Image.Source>
+                            </Image>
+                        </StackLayout>
+                    </StackLayout>
+                    <Button Clicked="openCadastro" HorizontalOptions="Center" BackgroundColor="Transparent" BorderWidth="0">
+                        <Button.ImageSource>
+                            <OnPlatform x:TypeArguments="FileImageSource">
+                                <On Platform="Android" Value="AddBotao.png"/>
+                                <On Platform="IOS" Value="Resources/AddBotao.png"/>
+                            </OnPlatform>
+                        </Button.ImageSource>
+                    </Button>
+                </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

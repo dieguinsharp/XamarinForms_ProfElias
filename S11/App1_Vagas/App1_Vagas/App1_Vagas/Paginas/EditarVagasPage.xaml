@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title ="Editar"
+             BackgroundColor="#FAE4CE"
+             x:Class="App1_Vagas.Paginas.EditarVagasPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+                <Entry Placeholder="Vaga - Cargo" x:Name="nomevaga"/>
+                <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+                <Entry Placeholder="Empresa" x:Name="empresa"/>
+                <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+                <Entry Placeholder="Quantidade" x:Name="quantidade"/>
+                <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+                <Entry Placeholder="Salário" x:Name="salario"/>
+                <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+                <Entry Placeholder="Cidade" x:Name="cidade"/>
+                <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+
+                <Editor Placeholder="Descrição do Cargo" HeightRequest="200" x:Name="editor"/>
+                <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+
+                <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                    <Label FontSize="15" FontAttributes="Bold" Text="Tipo de Contratação: "/>
+                    <Label FontSize="15" FontAttributes="Bold" Text="CLT"/>
+                    <Switch x:Name="switchh"/>
+                    <Label FontSize="15" FontAttributes="Bold" Text="PJ"/>
+                </StackLayout>
+                <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+
+                <Entry Placeholder="Telefone" x:Name="telefone"/>
+                <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+                <Entry Placeholder="Email" x:Name="email"/>
+                <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+
+                <Button Text="Salvar" Clicked="SalvarAction" BackgroundColor="#ff7f00" TextColor="White"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

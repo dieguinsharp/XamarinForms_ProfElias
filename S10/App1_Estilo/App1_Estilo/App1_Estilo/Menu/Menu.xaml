@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:page="clr-namespace:App1_Estilo"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1_Estilo.Menu.Menu">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <StackLayout>
+                    <StackLayout.Resources>
+                        <Style TargetType="Button">
+                            <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                            <Setter Property="VerticalOptions" Value="StartAndExpand"/>
+                            <Setter Property="BackgroundColor" Value="Black"/>
+                            <Setter Property="TextColor" Value="White"/>
+                            <Setter Property="BorderColor" Value="Blue"/>
+                        </Style>
+                    </StackLayout.Resources>
+                </StackLayout>
+                <Button Text="Implicit Style" Clicked="GoPage1"/>
+                <Button Text="Explicit Style" Clicked="GoPage2"/>
+                <Button Text="Global Style" Clicked="GoPage3"/>
+                <Button Text="Inherit Style" Clicked="GoPage4"/>
+                <Button Text="Dynamic Style" Clicked="GoPage5"/>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <page:MainPage/>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

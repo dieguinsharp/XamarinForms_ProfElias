@@ -1,0 +1,14 @@
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\bin\Debug\netstandard2.0\App2_Cinemix.deps.json
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\bin\Debug\netstandard2.0\App2_Cinemix.dll
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\bin\Debug\netstandard2.0\ref\App2_Cinemix.dll
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\bin\Debug\netstandard2.0\App2_Cinemix.pdb
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\obj\Debug\netstandard2.0\App2_Cinemix.csprojAssemblyReference.cache
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\obj\Debug\netstandard2.0\App2_Cinemix.csproj.CoreCompileInputs.cache
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\obj\Debug\netstandard2.0\App2_Cinemix.AssemblyInfoInputs.cache
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\obj\Debug\netstandard2.0\App2_Cinemix.AssemblyInfo.cs
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\obj\Debug\netstandard2.0\App2_Cinemix.dll
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\obj\Debug\netstandard2.0\ref\App2_Cinemix.dll
+C:\Gt\XFC\S10\App2_Cinemix\App2_Cinemix\App2_Cinemix\obj\Debug\netstandard2.0\App2_Cinemix.pdb

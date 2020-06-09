@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="#FAE4CE"
+             Title="Detalhes"
+             x:Class="App1_Vagas.Paginas.DetalharVagasPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#FAE4CE" Margin="5,5,5,0">
+            <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+            <Label Text="{Binding nomevaga}" FontSize="18" TextColor="Black" HorizontalOptions="Center" FontAttributes="Bold"/>
+            <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+            <Label  Text="{Binding empresa}" TextColor="Black" FontSize="16" HorizontalOptions="Center"/>
+            <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="15" Text="Quantidade de vagas:" FontAttributes="Bold"/>
+                <Label FontSize="15" Text="{Binding qntdvagas}"/>
+            </StackLayout>
+            <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="15" Text="Cidade:" FontAttributes="Bold"/>
+                <Label FontSize="15" Text="{Binding cidade}"/>
+            </StackLayout>
+            <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Salario:" FontAttributes="Bold"/>
+                <Label Text="{Binding salario}"/>
+            </StackLayout>
+            <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="15" Text="Descrição:" FontAttributes="Bold"/>
+                <Label FontSize="15" Text="{Binding descricao}"/>
+            </StackLayout>
+            <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="15" Text="Tipo de Contratação:" FontAttributes="Bold"/>
+                <Label FontSize="15" Text="{Binding tipocontratacao}"/>
+            </StackLayout>
+            <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="15" Text="Telefone:" FontAttributes="Bold"/>
+                <Label FontSize="15" Text="{Binding telefone}"/>
+            </StackLayout>
+            <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="15" Text="Email:" FontAttributes="Bold"/>
+                <Label FontSize="15" Text="{Binding email}"/>
+            </StackLayout>
+            <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

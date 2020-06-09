@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1_ControleXF.Conteudo.ImagePage">
+    <ContentPage.Content>
+        <StackLayout x:Name="container">
+            <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_Interjet.svg/1200px-Logo_Interjet.svg.png"
+                   Aspect="Fill"
+                   VerticalOptions="FillAndExpand"
+                   x:Name="imageOne"
+                   IsOpaque="True"/> <!-- fill = imagem se destorce para preencher a tela. AspectFill = Aumenta o maximo mas mantem as proporções. Aspect Fitt = Mantém as proporções. -->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

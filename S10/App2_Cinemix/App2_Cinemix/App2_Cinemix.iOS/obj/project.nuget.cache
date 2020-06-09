@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "SR5yoHQRdCr2HItbWdZ4aQvd+Vm8bhGTidvT/UH2fxh0kiK1S9oDsDKtdNANYJMyYNR/s/zw8JlKCM71rSkrrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Gt\\XFC\\S10\\App2_Cinemix\\App2_Cinemix\\App2_Cinemix.iOS\\App2_Cinemix.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Diego\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

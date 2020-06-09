@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "S81Ub7cqCSZEtCMd45CBzgp2h+LX1DgenbB2Zo7a9K+QeQ8jXAJXe2lxYUxCE+Wa7rTE5FIxQubW5RjuHdGO+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Gt\\XFC\\S12\\App1_Mimica\\App1_Mimica\\App1_Mimica.iOS\\App1_Mimica.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Diego\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

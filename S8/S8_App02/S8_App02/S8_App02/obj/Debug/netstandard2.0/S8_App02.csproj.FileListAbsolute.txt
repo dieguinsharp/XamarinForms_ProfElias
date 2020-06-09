@@ -1,0 +1,15 @@
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\bin\Debug\netstandard2.0\S8_App02.deps.json
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\bin\Debug\netstandard2.0\S8_App02.dll
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\bin\Debug\netstandard2.0\ref\S8_App02.dll
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\bin\Debug\netstandard2.0\S8_App02.pdb
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\obj\Debug\netstandard2.0\Paginas\CadastroPage.xaml.g.cs
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\obj\Debug\netstandard2.0\Paginas\InicioPage.xaml.g.cs
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\obj\Debug\netstandard2.0\S8_App02.csproj.CoreCompileInputs.cache
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\obj\Debug\netstandard2.0\S8_App02.AssemblyInfoInputs.cache
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\obj\Debug\netstandard2.0\S8_App02.AssemblyInfo.cs
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\obj\Debug\netstandard2.0\S8_App02.dll
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\obj\Debug\netstandard2.0\ref\S8_App02.dll
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\obj\Debug\netstandard2.0\S8_App02.pdb
+C:\Gt\XFC\S8_App02\S8_App02\S8_App02\obj\Debug\netstandard2.0\S8_App02.csprojAssemblyReference.cache

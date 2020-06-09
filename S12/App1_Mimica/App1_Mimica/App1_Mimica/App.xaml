@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1_Mimica.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style TargetType="StackLayout" x:Key="Cabecalho">
+                <Setter Property="BackgroundColor" Value="#F2C14E"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="CabecalhoTitulo">
+                <Setter Property="TextColor" Value="#FFFFFF"/>
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="FontSize" Value="24"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+            </Style>
+            
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="#F78053"/>
+                <Setter Property="FontSize" Value="16"/>
+            </Style>
+
+            <Style TargetType="Frame">
+                <Setter Property="BorderColor" Value="Black"/>
+                <Setter Property="OutlineColor" Value="#F78053"/>
+                <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+                <Setter Property="Padding" Value="0"/>
+            </Style>
+            
+            <Style x:Key="Container" TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="#FAFF7F"/>
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#F78053"/>
+                <Setter Property="TextColor" Value="#FFFFFF"/>
+            </Style>
+
+            <Style TargetType="StackLayout" x:Key="ContainerEspecial">
+                <Setter Property="BackgroundColor" Value="#FBFFB3"/>
+                <Setter Property="Padding" Value="10"/>
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

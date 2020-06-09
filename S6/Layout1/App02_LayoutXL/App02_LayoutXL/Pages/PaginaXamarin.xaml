@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App02_LayoutXL.Pages.PaginaXamarin">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Spacing="0">
+            <StackLayout Padding="30" BackgroundColor="#FFC926">
+                <Image Source="Logo.png" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout HeightRequest="100"  BackgroundColor="#0D1F2D" Padding="30">
+                <Label Text="Xamarin" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" FontSize="48"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <RelativeLayout>
+                    <BoxView
+                        Margin="10"
+                        BackgroundColor="#0D1F2D"
+                        WidthRequest="30"
+                        HeightRequest="30"
+                        x:Name="q1"
+                        />
+                    <BoxView 
+                        BackgroundColor="#25567E"
+                        WidthRequest="30"
+                        HeightRequest="30"
+                        x:Name="q2"
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=q1, Property=X, Factor=1, Constant=+20}"
+                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=q1, Property=Y, Factor=1, Constant=+20}"
+                        />
+                    <BoxView 
+                        BackgroundColor="#4E93CB"
+                        WidthRequest="30"
+                        HeightRequest="30"
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=q2, Property=X, Factor=1, Constant=+20}"
+                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=q2, Property=Y, Factor=1, Constant=+20}"
+                        />
+                </RelativeLayout>
+                <Label Text="Empresa" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black" FontSize="48"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Comprada pela Microsoft em 2016. Desenvolve tecnologia multiplataforma que funcionam principalmente em Android, IOS e UWP." FontSize="16" TextColor="Black" Margin="10"/>
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

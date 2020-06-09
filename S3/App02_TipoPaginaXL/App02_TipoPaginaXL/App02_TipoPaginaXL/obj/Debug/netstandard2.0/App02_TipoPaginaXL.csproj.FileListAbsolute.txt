@@ -1,0 +1,24 @@
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\bin\Debug\netstandard2.0\App02_TipoPaginaXL.deps.json
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\bin\Debug\netstandard2.0\App02_TipoPaginaXL.dll
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\bin\Debug\netstandard2.0\ref\App02_TipoPaginaXL.dll
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\bin\Debug\netstandard2.0\App02_TipoPaginaXL.pdb
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\App02_TipoPaginaXL.csprojAssemblyReference.cache
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\App02_TipoPaginaXL.csproj.CoreCompileInputs.cache
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\App02_TipoPaginaXL.AssemblyInfoInputs.cache
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\App02_TipoPaginaXL.AssemblyInfo.cs
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\XamlC.stamp
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\App02_TipoPaginaXL.dll
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\ref\App02_TipoPaginaXL.dll
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\App02_TipoPaginaXL.pdb
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\Contents\Pages\ContentPage1.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\Contents\Pages\ContentPage2.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\Contents\Pages\ContentPage3.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\Contents\Pages\IntroducaoApp.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\Contents\Navegation\Modal.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\Contents\Navegation\Page1.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\Contents\Navegation\Page2.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\Contents\Abas\Abas.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\Contents\Menu Lateral\Conteudo.xaml.g.cs
+C:\GitHub\XamarinFormsCurso\App02_TipoPaginaXL\App02_TipoPaginaXL\App02_TipoPaginaXL\obj\Debug\netstandard2.0\Contents\Menu Lateral\Master.xaml.g.cs

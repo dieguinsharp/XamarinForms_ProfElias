@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Minhas Vagas"
+             BackgroundColor="#FAE4CE"
+             x:Class="App1_Vagas.Paginas.MinhasVagasCadastradasPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Vagas" Grid.Column="0" Grid.Row="0" FontSize="24" TextColor="#f15559" VerticalOptions="Start" Margin="5,5,0,0"/>
+                    <Label Text="Econtre seu emprego aqui" Grid.Column="0" Grid.Row="0" Padding="0" Margin="15,30,0,0" TextColor="#f15559" FontSize="12" VerticalOptions="End"/>
+                    <StackLayout Grid.Column="1" Grid.Row="0" Margin="0,0,0,0" Spacing="5" HorizontalOptions="End" Orientation="Horizontal">
+                        <Button BackgroundColor="#ff7f00"  FontSize="13" Padding="0" TextColor="White" Text="Voltar" Clicked="GoConsultarVagas" Margin="0,5,0,0"/>
+                        <Button BackgroundColor="#ff7f00"  FontSize="13" Padding="0" TextColor="White" Text="Add" Clicked="GoCadastro" Margin="0,5,5,0"/>
+                    </StackLayout>
+                </Grid>
+            
+                <Label x:Name="lblCount" FontSize="16" FontAttributes="Bold" Margin="4,0,0,0"/>
+                <Entry Placeholder="Pesquisar suas vagas" Margin="0,0,0,0" TextChanged="Pesquisa" Keyboard="Chat"/>
+            
+                <ListView x:Name="listVagas" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <StackLayout Grid.Column="0" BackgroundColor="#F8D3AE" Margin="0,0,0,5">
+                                        <BoxView BackgroundColor="#ff7f00" HeightRequest="1"/>
+                                        <StackLayout>
+                                            <Label Margin="5,0,0,0" Text="{Binding nomevaga}" FontSize="18" FontAttributes="Bold" TextColor="Black"/>
+                                            <Label Margin="5,0,0,0" Text="{Binding empresa}"  FontSize="16" FontAttributes="Bold" TextColor="Black"/>
+                                            <Label Margin="5,0,0,0" Text="{Binding cidade}" FontSize="14" FontAttributes="Bold"/>
+                                        </StackLayout>
+                                        <BoxView BackgroundColor="#ff7f00" HeightRequest="1" VerticalOptions="End"/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="0" Orientation="Horizontal" HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,10,0">
+                                        <Label Text="Editar" TextColor="#f15559" FontSize="15" FontAttributes="Bold">
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="EditarAction" CommandParameter="{Binding .}"/>
+                                            </Label.GestureRecognizers>
+                                        </Label>
+                                        <Label Text="|" TextColor="#f15559" FontSize="15" FontAttributes="Bold"/>
+                                        <Label Text="Apagar" TextColor="#f15559" FontSize="15" FontAttributes="Bold">
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="ApagarAction" CommandParameter="{Binding .}"/>
+                                            </Label.GestureRecognizers>
+                                        </Label>
+                                    </StackLayout>
+                                    
+                                </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1_NossoChat.View.Chats"
+             Title="NossoChat">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="add.png" Text="Adicionar Chat" Command="{Binding Adicionar}"/>
+        <ToolbarItem Icon="refresh.png" Text="Atualizar" Command="{Binding Atualizar}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <ListView HasUnevenRows="True"  ItemsSource="{Binding chatsLISTA}" SelectedItem="{Binding SelectedChat,Mode=TwoWay}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10">
+                                <Label Text="{Binding nome}" TextColor="#5ED055" FontSize="20"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackLayout BackgroundColor="#5ED055" x:Name="SLCarregando" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" IsVisible="{Binding carregando}">
+                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <ActivityIndicator IsRunning="True" Color="White"/>
+                    <Label Text="Carregando chats..." TextColor="White"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout BackgroundColor="Red" IsVisible="{Binding MensagemErro}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,1,1,0.1" Padding="5">
+                <Label Text="Ocorreu um erro no processamento, tente atualizar!" FontSize="16" Margin="5"/>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

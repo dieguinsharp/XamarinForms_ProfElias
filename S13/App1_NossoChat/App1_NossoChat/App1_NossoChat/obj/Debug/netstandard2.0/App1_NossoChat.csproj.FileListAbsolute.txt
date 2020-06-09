@@ -1,0 +1,17 @@
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\bin\Debug\netstandard2.0\App1_NossoChat.deps.json
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\bin\Debug\netstandard2.0\App1_NossoChat.dll
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\App1_NossoChat.csprojAssemblyReference.cache
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\View\CadastrarChat.xaml.g.cs
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\View\Chats.xaml.g.cs
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\View\Mensagem.xaml.g.cs
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\View\PaginaInicial.xaml.g.cs
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\App1_NossoChat.AssemblyInfoInputs.cache
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\App1_NossoChat.AssemblyInfo.cs
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\App1_NossoChat.csproj.CoreCompileInputs.cache
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\App1_NossoChat.dll
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\ref\App1_NossoChat.dll
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\App1_NossoChat.pdb
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\bin\Debug\netstandard2.0\ref\App1_NossoChat.dll
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\bin\Debug\netstandard2.0\App1_NossoChat.pdb
+C:\Gt\XFC\S13\App1_NossoChat\App1_NossoChat\App1_NossoChat\obj\Debug\netstandard2.0\XamlC.stamp

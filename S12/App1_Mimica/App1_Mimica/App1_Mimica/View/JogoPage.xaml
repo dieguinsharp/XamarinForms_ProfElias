@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:convert="clr-namespace:App1_Mimica.View.Util"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:cab="clr-namespace:App1_Mimica.View.Util"
+             x:Class="App1_Mimica.View.JogoPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <convert:LabelPontuacaoConverter x:Key="convPontuacao"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="0">
+                <cab:Cabecalho/>
+                <StackLayout Style="{StaticResource Container}">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{Binding NumeroGrupo}" FontSize="24"/>
+                        <Label Text="{Binding NomeGrupo}" FontSize="24"/>
+                    </StackLayout>
+                    <StackLayout>
+                    <Frame>
+                        <StackLayout Style="{StaticResource ContainerEspecial}">
+                            <Label Text="{Binding PalavraPontuacao, Converter={StaticResource convPontuacao}}" FontSize="24"/>
+                            <Label Text="{Binding Palavra}" HorizontalOptions="CenterAndExpand" FontSize="64" FontAttributes="Bold"/>
+                            <Button Text="Mostrar" Command="{Binding MostrarPalavra}" IsVisible="{Binding IsVisibleBtnMostrar}" FontSize="20"/>
+                        </StackLayout>
+                    </Frame>
+                    </StackLayout>
+                    <StackLayout>
+                        <StackLayout IsVisible="{Binding IsVisibleContagem}" VerticalOptions="FillAndExpand" Spacing="0">
+                            <Label Text="{Binding TextoContagem}" FontSize="100" HorizontalOptions="Center" FontAttributes="Bold"/>
+                            <Label Text="segundos" FontSize="20" HorizontalOptions="Center" FontAttributes="Bold" VerticalOptions="Start"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" IsVisible="{Binding IsVisibleAE}" VerticalOptions="FillAndExpand">
+                            <Button Text="Acertou" Command="{Binding Acertou}" BackgroundColor="#00B22D" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+                            <Button Text="Errou" Command="{Binding Errou}" BackgroundColor="#FF4000" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+                        </StackLayout>
+                        <Button IsVisible="{Binding IsVisibleButtonIniciar}" Text="Iniciar" Command="{Binding Iniciar}" FontSize="20" FontAttributes="Bold"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

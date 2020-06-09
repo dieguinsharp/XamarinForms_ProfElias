@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1_ControleXF.Conteudo.WebViewPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Entry x:Name="txtSite" HorizontalOptions="FillAndExpand"/>
+                <Button Clicked="openSite" Text="Abrir"/>
+                <Button Clicked="openProx" Text="Ir"/>
+                <Button Clicked="openVoltar" Text="Voltar"/>
+            </StackLayout>
+            <WebView 
+                x:Name="navegador"
+                Source="https://www.Google.com.br"
+                Navigated="openCarregado"
+                Navigating="openCarregando"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+                
+            </WebView>
+            <Label x:Name="lblStatus"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

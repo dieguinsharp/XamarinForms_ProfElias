@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1_NossoChat.View.PaginaInicial"
+             BackgroundColor="#5ED055">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <StackLayout Padding="15" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
+                <Label Text="NossoChat" HorizontalOptions="Start" VerticalOptions="Start" FontSize="18" FontAttributes="Bold"  TextColor="White"/>
+                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <Entry Text="{Binding NomeUSER}" Placeholder="Nome usuario" BackgroundColor="White" TextColor="#5ED055"/>
+                    <Entry Text="{Binding SenhaUSER}" IsPassword="True" Placeholder="Senha" BackgroundColor="White" TextColor="#5ED055"/>
+                    <Button Text="Acessar/Cadastrar" Command="{Binding AcessarCommand}" BorderWidth="1" BackgroundColor="Transparent" TextColor="White" BorderColor="ForestGreen"/>
+                    <Label TextColor="Red" Text="{Binding msg}"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout BackgroundColor="#5ED055" x:Name="SLCarregando" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" IsVisible="{Binding carregando}">
+                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <ActivityIndicator IsRunning="True" Color="White"/>
+                    <Label Text="Logando..." TextColor="White"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout BackgroundColor="Red" IsVisible="{Binding MensagemErro}" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,1,1,0.1" Padding="5">
+                <Label Text="Ocorreu um erro no processamento" FontSize="16" Margin="5"/>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App01_LayoutXL.MainPage"
+             BackgroundColor="Blue">
+
+    <StackLayout>
+        <Button Text="Absolute" 
+                x:Name="btnAbsolute" 
+                Clicked="openAbsolute" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center" />
+        <Button Text="Grid" 
+                x:Name="btnGrid" 
+                Clicked="openGrid" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center" />
+        <Button Text="Relative" 
+                x:Name="btnRelative" 
+                Clicked="openRelative" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center" />
+        <Button Text="Scroll" 
+                x:Name="btnScroll" 
+                Clicked="openScroll" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center" />
+        <Button Text="Stack" 
+                x:Name="btnStack" 
+                Clicked="openStack" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center" />
+    </StackLayout>
+
+</ContentPage>

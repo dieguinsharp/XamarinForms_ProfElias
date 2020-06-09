@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"         
+             Title="Vagas"
+             BackgroundColor="#FAE4CE"
+             x:Class="App1_Vagas.Paginas.ConsultarVagasPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Vagas" Grid.Column="0" Grid.Row="0" FontSize="24" TextColor="#f15559" VerticalOptions="Start" Margin="5,5,0,0"/>
+                    <Label Text="Econtre seu emprego aqui" Grid.Column="0" Grid.Row="0" Padding="0" Margin="15,30,0,0" TextColor="#f15559" FontSize="12" VerticalOptions="End"/>
+                    <StackLayout Orientation="Horizontal" Grid.Column="1" Grid.Row="0" Margin="0,0,0,0" Spacing="5" HorizontalOptions="End">
+                        <Button BackgroundColor="#ff7f00"  FontSize="13" Padding="0" TextColor="White" Text="My Vagas" Clicked="GoMinhasVagas" Margin="5,5,5,0"/>
+                        <Button BackgroundColor="#ff7f00"  FontSize="13" Padding="0" TextColor="White" Text="Add" Clicked="GoCadastro" Margin="0,5,5,0"/>
+                    </StackLayout>
+                </Grid>
+                
+                <Label x:Name="qntdVagas" FontSize="16" FontAttributes="Bold" Margin="4,0,0,0"/>
+                <Entry Placeholder="Pesquisar oportunidades" Margin="0,0,0,0" TextChanged="Pesquisa" Keyboard="Chat"/>
+                <ListView x:Name="listVagas" HasUnevenRows="True" BackgroundColor="Transparent">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <StackLayout Grid.Column="0" BackgroundColor="#F8D3AE" Margin="0,0,0,5">
+                                        <BoxView BackgroundColor="#ff7f00" HeightRequest="1" />
+                                        <StackLayout>
+                                            <Label Margin="5,0,0,0" Text="{Binding nomevaga}" FontSize="18" FontAttributes="Bold" TextColor="Black"/>
+                                            <Label Margin="5,0,0,0" Text="{Binding empresa}"  FontSize="16" FontAttributes="Bold" TextColor="Black"/>
+                                            <Label Margin="5,0,0,0" Text="{Binding cidade}" FontSize="14" FontAttributes="Bold"/>
+                                        </StackLayout>
+                                        <BoxView BackgroundColor="#ff7f00" HeightRequest="1"/>
+                                    </StackLayout>
+
+                                    <Label Text="+Detalhe" TextColor="#ff7f00" FontSize="15" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="End" Margin="0,0,10,0  ">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="MaisDetalhe" CommandParameter="{Binding .}"/>
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

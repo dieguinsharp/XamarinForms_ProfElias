@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App02_TipoPaginaXL.Contents.Navegation.Page1"
+             Title="Página Principal"
+             BackgroundColor="LightSkyBlue">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label Text="Eu sou uma ContentPage"
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="#3498DB"
+                   FontSize="15"
+                   FontAttributes="Bold"/>
+            <Button Text="Ir para Página Secundaria"
+                    TextColor="#3498DB"
+                    BackgroundColor="Blue"
+                    FontSize="15"
+                    x:Name="btnParaPage2"/>
+            <Button Text="Ir para o Modal"
+                    TextColor="#3498DB"
+                    BackgroundColor="Blue"
+                    FontSize="15"
+                    x:Name="btnParaModal"/>
+            <Button Text="Ir para Menu"
+                    TextColor="#3498DB"
+                    BackgroundColor="Blue"
+                    FontSize="15"
+                    x:Name="btnParaMenu"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

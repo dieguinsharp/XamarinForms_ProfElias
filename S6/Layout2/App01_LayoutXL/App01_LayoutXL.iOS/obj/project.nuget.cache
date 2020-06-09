@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vTnntbEcx1G17FQgVZhzAmpDPRZPo/zjvHIwb0KsFAFw56l5Ex8dSkLltz0io9haagc1znCK7h6iAatg/2Uhag==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\XamarinFormsCurso\\Sessao06\\App01_LayoutXL\\App01_LayoutXL\\App01_LayoutXL.iOS\\App01_LayoutXL.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Diego Akbar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}
